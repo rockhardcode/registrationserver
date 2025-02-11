@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import authRoutes from "./routes/auth.js";
+import employeeRoutes from "./routes/employee.js";
 
 dotenv.config();
 const app = express();
